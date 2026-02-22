@@ -1,0 +1,139 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 81,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.menuItems.menuItem17890ddibt.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "#1a2e6d",
+      "buttonType": "SIMPLE",
+      "disabledWhenInvalid": false,
+      "iconAlign": "left",
+      "iconName": "home",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Main Menu",
+      "menuItems": {},
+      "onClick": "{{navigateTo('Hoş geldiniz Copy', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "#1a2e6d",
+      "buttonType": "SIMPLE",
+      "disabledWhenInvalid": false,
+      "iconName": "settings",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Settings",
+      "menuItems": {},
+      "onClick": "{{navigateTo('Ayarlar Copy', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton3": {
+      "buttonColor": "#1a2e6d",
+      "buttonType": "MENU",
+      "disabledWhenInvalid": false,
+      "iconName": "paperclip",
+      "id": "groupButton3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Neto Toolkit",
+      "menuItems": {
+        "menuItem1": {
+          "backgroundColor": "#18181b",
+          "disabledWhenInvalid": false,
+          "iconColor": "#f4f4f5",
+          "iconName": "add-to-artifact",
+          "id": "menuItem1",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Nls",
+          "onClick": "{{showModal(Modal1.name);}}",
+          "textColor": "#f4f4f5",
+          "widgetId": ""
+        },
+        "menuItem17890ddibt": {
+          "backgroundColor": "#18181b",
+          "iconColor": "#f4f4f5",
+          "iconName": "page-layout",
+          "id": "menuItem17890ddibt",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Page 2",
+          "onClick": "{{navigateTo('Sayfa 2 Copy', {}, 'SAME_WINDOW');}}",
+          "textColor": "#f4f4f5",
+          "widgetId": "hh3sm25y3k"
+        },
+        "menuItemq1rovh04yf": {
+          "backgroundColor": "#18181b",
+          "iconColor": "#f4f4f5",
+          "iconName": "inbox-search",
+          "id": "menuItemq1rovh04yf",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Search Engine",
+          "textColor": "#f4f4f5",
+          "widgetId": "zrak0aat1d"
+        }
+      },
+      "placement": "CENTER",
+      "widgetId": ""
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "xqmuzbay3x",
+  "leftColumn": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 78,
+  "mobileLeftColumn": 10,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 74,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "originalBottomRow": 81,
+  "originalTopRow": 74,
+  "parentColumnSpace": 6.84375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "topRow": 74,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "6yzy4k9myi",
+  "widgetName": "ButtonGroup1"
+}

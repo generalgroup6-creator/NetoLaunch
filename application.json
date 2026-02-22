@@ -1,0 +1,93 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "MOBILE"
+  },
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#FFEFDB",
+  "embedSetting": {
+    "height": "720px",
+    "showNavigationBar": false,
+    "width": "1024px"
+  },
+  "evaluationVersion": 2,
+  "icon": "arrow-right",
+  "pages": [
+    {
+      "id": "Hoş geldiniz",
+      "isDefault": true
+    },
+    {
+      "id": "Ana menü",
+      "isDefault": false
+    },
+    {
+      "id": "Ayarlar",
+      "isDefault": false
+    },
+    {
+      "id": "Ana menü Copy",
+      "isDefault": false
+    },
+    {
+      "id": "Hoş geldiniz Copy",
+      "isDefault": false
+    },
+    {
+      "id": "Ayarlar Copy",
+      "isDefault": false
+    },
+    {
+      "id": "Sayfa 2",
+      "isDefault": false
+    },
+    {
+      "id": "Sayfa 2 Copy",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "MOBILE"
+  },
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
+}

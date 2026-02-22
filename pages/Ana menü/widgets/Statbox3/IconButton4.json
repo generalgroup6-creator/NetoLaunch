@@ -1,0 +1,37 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "buttonColor": "#18181b",
+  "buttonStyle": "PRIMARY",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "arrow-top-right",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "uwivdbagd2",
+  "leftColumn": 49,
+  "minWidth": 50,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('https://cse.google.com/cse?cx=33c20efb5e3434b02#gsc.tab=0', {}, 'SAME_WINDOW');}}",
+  "parentId": "bjceho7y93",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "cqui6hvxkp",
+  "widgetName": "IconButton4"
+}
