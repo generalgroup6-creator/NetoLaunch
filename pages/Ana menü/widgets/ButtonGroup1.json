@@ -78,7 +78,7 @@
       "label": "Neto Toolkit",
       "menuItems": {
         "menuItem1": {
-          "backgroundColor": "#1e3a8a",
+          "backgroundColor": "#18181b",
           "disabledWhenInvalid": false,
           "iconColor": "#f4f4f5",
           "iconName": "add-to-artifact",
@@ -92,7 +92,7 @@
           "widgetId": ""
         },
         "menuItem83t00zwwdx": {
-          "backgroundColor": "#1e3a8a",
+          "backgroundColor": "#18181b",
           "iconColor": "#f4f4f5",
           "iconName": "inbox-search",
           "id": "menuItem83t00zwwdx",
@@ -105,7 +105,7 @@
           "widgetId": "jg8tlkwoeg"
         },
         "menuItemhgadto5pdu": {
-          "backgroundColor": "#1e3a8a",
+          "backgroundColor": "#18181b",
           "iconColor": "#f4f4f5",
           "iconName": "page-layout",
           "id": "menuItemhgadto5pdu",
