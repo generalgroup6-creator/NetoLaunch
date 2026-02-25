@@ -33,6 +33,9 @@
     },
     {
       "key": "groupButtons.groupButton3.menuItems.menuItemhgadto5pdu.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.menuItems.menuItem5k0km09wnv.onClick"
     }
   ],
   "groupButtons": {
@@ -100,6 +103,7 @@
           "isDisabled": false,
           "isVisible": true,
           "label": "Alfa istemcisi",
+          "onClick": "{{navigateTo('Alfa istemcisi', {}, 'SAME_WINDOW');}}",
           "textColor": "#f4f4f5",
           "widgetId": "2lkkf6h76m"
         },
