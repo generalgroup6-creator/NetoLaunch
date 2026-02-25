@@ -65,6 +65,14 @@
     {
       "id": "Sayfa 2 Copy",
       "isDefault": false
+    },
+    {
+      "id": "Alfa istemcisi",
+      "isDefault": false
+    },
+    {
+      "id": "Sayfa1",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
