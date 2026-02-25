@@ -91,6 +91,18 @@
           "textColor": "#f4f4f5",
           "widgetId": ""
         },
+        "menuItem5k0km09wnv": {
+          "backgroundColor": "#18181b",
+          "iconColor": "#f4f4f5",
+          "iconName": "array-date",
+          "id": "menuItem5k0km09wnv",
+          "index": 3,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Alfa istemcisi",
+          "textColor": "#f4f4f5",
+          "widgetId": "2lkkf6h76m"
+        },
         "menuItem83t00zwwdx": {
           "backgroundColor": "#18181b",
           "iconColor": "#f4f4f5",

@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "697b4a3cf8e416099ad51425_e9b19fec-51e0-43e2-be49-8879e57e4a53",
-  "id": "Sayfa1_DeleteQuery",
+  "gitSyncId": "697b4a3cf8e416099ad51425_a128209f-5757-40a3-a374-3667afe04968",
+  "id": "Alfa istemcisi_InsertQuery",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -8,24 +8,13 @@
       "encodeParamsToggle": true,
       "formData": {
         "command": {
-          "componentData": "DELETE_ONE",
-          "data": "DELETE_ONE",
+          "componentData": "INSERT_ONE",
+          "data": "INSERT_ONE",
           "viewType": "component"
         },
         "entityType": {
           "componentData": "ROWS",
           "data": "ROWS",
-          "viewType": "component"
-        },
-        "pagination": {
-          "componentData": {
-            "limit": "{{data_table.pageSize}}",
-            "offset": "{{(data_table.pageNo - 1) * data_table.pageSize}}"
-          },
-          "data": {
-            "limit": "{{data_table.pageSize}}",
-            "offset": "{{(data_table.pageNo - 1) * data_table.pageSize}}"
-          },
           "viewType": "component"
         },
         "projection": {
@@ -39,9 +28,9 @@
         "range": {
           "data": ""
         },
-        "rowIndex": {
-          "componentData": "{{data_table.triggeredRow.rowIndex}}",
-          "data": "{{data_table.triggeredRow.rowIndex}}",
+        "rowObjects": {
+          "componentData": "{{insert_form.formData}}",
+          "data": "{{insert_form.formData}}",
           "viewType": "component"
         },
         "sheetName": {
@@ -55,26 +44,21 @@
           "viewType": "component"
         },
         "smartSubstitution": {
-          "componentData": false,
-          "data": false,
+          "componentData": true,
+          "data": true,
           "viewType": "component"
         },
         "tableHeaderIndex": {
           "componentData": "1",
           "data": "1",
           "viewType": "component"
-        },
-        "where": {
-          "data": {
-            "condition": "AND"
-          }
         }
       },
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
           "key": "method",
-          "value": "DELETE_ROW"
+          "value": "APPEND"
         },
         {
           "key": "sheetUrl",
@@ -98,7 +82,7 @@
         },
         {
           "key": "rowLimit",
-          "value": "{{data_table.pageSize}}"
+          "value": ""
         },
         {
           "key": "sheetName",
@@ -106,17 +90,18 @@
         },
         {
           "key": "rowOffset",
-          "value": "{{(data_table.pageNo - 1) * data_table.pageSize}}"
+          "value": ""
         },
         {
-          "key": "rowObject"
+          "key": "rowObject",
+          "value": "{{insert_form.formData}}"
         },
         {
           "key": "rowObjects"
         },
         {
           "key": "rowIndex",
-          "value": "{{data_table.triggeredRow.rowIndex}}"
+          "value": ""
         },
         {
           "key": "deleteFormat",
@@ -124,7 +109,7 @@
         },
         {
           "key": "smartSubstitution",
-          "value": false
+          "value": true
         }
       ],
       "timeoutInMillisecond": 10000
@@ -137,8 +122,8 @@
       "pluginId": "google-sheets-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "DeleteQuery",
-    "pageId": "Sayfa1",
+    "name": "InsertQuery",
+    "pageId": "Alfa istemcisi",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

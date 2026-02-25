@@ -1,6 +1,6 @@
 {
   "gitSyncId": "697b4a3cf8e416099ad51425_5b2d5c99-0f28-4407-a2ca-f1b344e3f358",
-  "id": "Sayfa1_SelectQuery",
+  "id": "Alfa istemcisi_SelectQuery",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -157,7 +157,7 @@
     },
     "dynamicBindingPathList": [],
     "name": "SelectQuery",
-    "pageId": "Sayfa1",
+    "pageId": "Alfa istemcisi",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": true
   }

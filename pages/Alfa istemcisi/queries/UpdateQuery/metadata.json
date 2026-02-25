@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "697b4a3cf8e416099ad51425_a128209f-5757-40a3-a374-3667afe04968",
-  "id": "Sayfa1_InsertQuery",
+  "gitSyncId": "697b4a3cf8e416099ad51425_0c553533-e02e-4aa2-a15f-6461729954b4",
+  "id": "Alfa istemcisi_UpdateQuery",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -8,8 +8,8 @@
       "encodeParamsToggle": true,
       "formData": {
         "command": {
-          "componentData": "INSERT_ONE",
-          "data": "INSERT_ONE",
+          "componentData": "UPDATE_ONE",
+          "data": "UPDATE_ONE",
           "viewType": "component"
         },
         "entityType": {
@@ -25,12 +25,9 @@
           "data": "ROWS",
           "viewType": "component"
         },
-        "range": {
-          "data": ""
-        },
         "rowObjects": {
-          "componentData": "{{insert_form.formData}}",
-          "data": "{{insert_form.formData}}",
+          "componentData": "{{\n\t{\n\t\t...update_form.formData, \n\t\trowIndex:data_table.selectedRow.rowIndex\n\t}\n}}",
+          "data": "{{\n\t{\n\t\t...update_form.formData, \n\t\trowIndex:data_table.selectedRow.rowIndex\n\t}\n}}",
           "viewType": "component"
         },
         "sheetName": {
@@ -58,7 +55,7 @@
       "pluginSpecifiedTemplates": [
         {
           "key": "method",
-          "value": "APPEND"
+          "value": "UPDATE"
         },
         {
           "key": "sheetUrl",
@@ -94,7 +91,7 @@
         },
         {
           "key": "rowObject",
-          "value": "{{insert_form.formData}}"
+          "value": "{{\n\t{\n\t\t...update_form.formData, \n\t\trowIndex:data_table.selectedRow.rowIndex\n\t}\n}}"
         },
         {
           "key": "rowObjects"
@@ -122,8 +119,8 @@
       "pluginId": "google-sheets-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "InsertQuery",
-    "pageId": "Sayfa1",
+    "name": "UpdateQuery",
+    "pageId": "Alfa istemcisi",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
