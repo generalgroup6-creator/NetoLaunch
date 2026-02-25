@@ -3,13 +3,9 @@
   "borderRadius": "0.375rem",
   "bottomRow": 6,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#18181b",
   "buttonVariant": "PRIMARY",
-  "dynamicBindingPathList": [
-    {
-      "key": "buttonColor"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
