@@ -1,14 +1,14 @@
 {
   "backgroundColor": "#18181b",
-  "borderColor": "#2E3D4955",
+  "borderColor": "{{appsmith.theme.colors.primaryColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "borderWidth": "0",
-  "bottomRow": 76,
+  "borderWidth": "5",
+  "bottomRow": 73,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "0px",
-      "bottomRow": 660,
+      "bottomRow": 650,
       "boxShadow": "none",
       "canExtend": false,
       "containerStyle": "none",
@@ -38,6 +38,9 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "borderColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -50,15 +53,15 @@
   "isLoading": false,
   "isVisible": "true",
   "labelTextSize": "0.875rem",
-  "leftColumn": 4,
+  "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "parentColumnSpace": 19.75,
   "parentId": "0",
   "parentRowSpace": 10,
-  "rightColumn": 60,
+  "rightColumn": 62,
   "shouldScrollContents": true,
-  "topRow": 10,
+  "topRow": 7,
   "type": "CONTAINER_WIDGET",
   "version": 1,
   "widgetId": "mvubsemxfo",
