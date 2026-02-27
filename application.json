@@ -69,6 +69,10 @@
     {
       "id": "Alfa istemcisi",
       "isDefault": false
+    },
+    {
+      "id": "Alfa istemcisi Copy",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
