@@ -30,6 +30,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
   "rightColumn": 60,
+  "tooltip": "Yardım menüsü",
   "topRow": 2,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,

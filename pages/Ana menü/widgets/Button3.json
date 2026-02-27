@@ -43,6 +43,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 46,
   "text": "Git",
+  "tooltip": "Bluesky'a git",
   "topRow": 58,
   "type": "BUTTON_WIDGET",
   "version": 1,
