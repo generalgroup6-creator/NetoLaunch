@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 81,
+  "bottomRow": 84,
   "boxShadow": "none",
   "buttonVariant": "PRIMARY",
   "childStylesheet": {
@@ -123,7 +123,7 @@
   "mobileTopRow": 74,
   "needsErrorInfo": false,
   "orientation": "horizontal",
-  "originalBottomRow": 81,
+  "originalBottomRow": 84,
   "originalTopRow": 74,
   "parentColumnSpace": 6.84375,
   "parentId": "0",
